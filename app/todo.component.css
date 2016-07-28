@@ -1,0 +1,23 @@
+.base {
+    width: 400px;
+    border: solid;
+    padding: 10px;
+    border-width: thin;
+    border-color: darkgray;
+}
+.base h3 {
+    border-bottom-style: solid;
+    border-bottom-color: darkgray;
+    padding-bottom: 5px;
+    border-width: thin;
+}
+input {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+.item {
+    display: inline-block;
+    width: 90%;
+}

@@ -1,0 +1,7 @@
+<div class="base">
+    <h3>{{title}} ({{totalItems}})</h3>
+    <div class="to-do-item" *ngFor="let todo of toDoList">
+        <div class="item" [color] [rainbow]="true">{{todo.item}}</div>
+        <input type="checkbox" (click)="toggleClick(todo, $event)">
+    </div>
+</div>
